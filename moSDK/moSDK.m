@@ -8,9 +8,6 @@
 
 #import "moSDK.h"
 #import <UIKit/UIKit.h>
-#import <AWSRuntime/AWSRuntime.h>
-#import <AWSSNS/AWSSNS.h>
-#import <AWSS3/AWSS3.h>
 
 // moSDK init functions like generate oauth header, tokenid register
 // *** no logout concept, parse got logout

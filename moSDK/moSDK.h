@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "DIOSSession.h"
+#import <AWSRuntime/AWSRuntime.h>
+#import <AWSS3/AWSS3.h>
+#import <AWSSNS/AWSSNS.h>
 
 @interface moSDK : NSObject {
     NSString *consumerKey;

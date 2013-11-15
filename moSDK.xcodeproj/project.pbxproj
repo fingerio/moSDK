@@ -81,10 +81,10 @@
 		C39AD2331834D77A00164D23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39AD2321834D77A00164D23 /* Security.framework */; };
 		C39AD23C1834DAE600164D23 /* moPush.h in Headers */ = {isa = PBXBuildFile; fileRef = C39AD23A1834DAE600164D23 /* moPush.h */; };
 		C39AD23D1834DAE600164D23 /* moPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C39AD23B1834DAE600164D23 /* moPush.m */; };
-		C39AD2421834DB8300164D23 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39AD23E1834DB8300164D23 /* AWSRuntime.framework */; };
 		C39AD2431834DB8300164D23 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39AD23F1834DB8300164D23 /* AWSS3.framework */; };
 		C39AD2441834DB8300164D23 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39AD2401834DB8300164D23 /* AWSSNS.framework */; };
 		C39AD2451834DB8300164D23 /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39AD2411834DB8300164D23 /* AWSSQS.framework */; };
+		C3B9F30F1835FCFE0079B9B8 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B9F30E1835FCFE0079B9B8 /* AWSRuntime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,10 +182,10 @@
 		C39AD2321834D77A00164D23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C39AD23A1834DAE600164D23 /* moPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moPush.h; sourceTree = "<group>"; };
 		C39AD23B1834DAE600164D23 /* moPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moPush.m; sourceTree = "<group>"; };
-		C39AD23E1834DB8300164D23 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
 		C39AD23F1834DB8300164D23 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSS3.framework; sourceTree = "<group>"; };
 		C39AD2401834DB8300164D23 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSNS.framework; sourceTree = "<group>"; };
 		C39AD2411834DB8300164D23 /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSQS.framework; sourceTree = "<group>"; };
+		C3B9F30E1835FCFE0079B9B8 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,9 +196,9 @@
 				C39AD2331834D77A00164D23 /* Security.framework in Frameworks */,
 				C39AD0AA1834C8D700164D23 /* SystemConfiguration.framework in Frameworks */,
 				C39AD0A81834C8CB00164D23 /* MobileCoreServices.framework in Frameworks */,
+				C3B9F30F1835FCFE0079B9B8 /* AWSRuntime.framework in Frameworks */,
 				C39AD2441834DB8300164D23 /* AWSSNS.framework in Frameworks */,
 				C39AD2431834DB8300164D23 /* AWSS3.framework in Frameworks */,
-				C39AD2421834DB8300164D23 /* AWSRuntime.framework in Frameworks */,
 				C39AD0A61834C8C300164D23 /* UIKit.framework in Frameworks */,
 				C39AD2451834DB8300164D23 /* AWSSQS.framework in Frameworks */,
 				C39AD07B1834C8AF00164D23 /* Foundation.framework in Frameworks */,
@@ -240,7 +240,7 @@
 		C39AD0791834C8AF00164D23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C39AD23E1834DB8300164D23 /* AWSRuntime.framework */,
+				C3B9F30E1835FCFE0079B9B8 /* AWSRuntime.framework */,
 				C39AD23F1834DB8300164D23 /* AWSS3.framework */,
 				C39AD2401834DB8300164D23 /* AWSSNS.framework */,
 				C39AD2411834DB8300164D23 /* AWSSQS.framework */,
@@ -680,6 +680,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/keithyau/Documents/xcode/moSDK2/moSDK,
+					/Users/keithyau/Documents/xcode/moSDK,
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -700,6 +701,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/keithyau/Documents/xcode/moSDK2/moSDK,
+					/Users/keithyau/Documents/xcode/moSDK,
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -772,6 +774,7 @@
 				C39AD0A11834C8AF00164D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C39AD0A21834C8AF00164D23 /* Build configuration list for PBXNativeTarget "moSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +783,7 @@
 				C39AD0A41834C8AF00164D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
