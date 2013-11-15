@@ -44,7 +44,8 @@
 
 //Init local db
 
-//Register device to mobingi by udid/applicationId
+//Register device to mobingi by openudid/applicationId
+//https://github.com/ylechelle/OpenUDID
 
 //Create S3 storage folder by AWS S3 SDK
 

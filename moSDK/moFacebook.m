@@ -13,3 +13,13 @@
 @implementation moFacebook
 
 @end
+
+
+// Init facebook SDK
+
+// Link facebook account to moUser
+
+// unlink user
+
+// Facebook session by 3 legged oauth
+

@@ -12,3 +12,23 @@
 @implementation moUser
 
 @end
+
+// check currentUser information (name, data, uid, udid, role ...)
+
+// Update user information
+
+// Register user (Should call from moInit)
+
+// Remove device user
+
+// Reset oauth Key
+
+// Get action privilege
+
+// Binding facebook User
+
+
+
+
+// Should it in moUser ?
+// Get S3 file list
