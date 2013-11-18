@@ -30,5 +30,7 @@
 
 
 
-// Should it in moUser ?
+/////////////////////////////// Should it in moUser ?
 // Get S3 file list
+
+// If 2 legged oauth, do we need login/SignUPViewController ?
